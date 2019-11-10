@@ -1,0 +1,15 @@
+ 
+// 
+ elementorFrontend.hooks.addAction( "frontend/element_ready/widget", function( $scope ) {
+ 
+     jQuery("#main_carousel").slick({
+      autoplay:'.$autoplay.',
+      arrows:'.$nav.',
+      fade:'.$fade.',
+      autoplaySpeed:'.$settings['maincarspeed'].',
+      slidesToShow: 1,
+      nextArrow: "<i class=\"fa fa-angle-right\"></i>",
+                    prevArrow: "<i class=\"fa fa-angle-left\"></i>",
+    });
+    
+  } );
