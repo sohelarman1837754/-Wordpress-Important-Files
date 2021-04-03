@@ -1,0 +1,26 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+
+
+
+<div class="hero_slide">
+  <div class="hero_single"><img src="http://oplnce.wpengine.com/wp-content/uploads/2021/04/AdobeStock_302977102-resized-scaled.jpg"></div>
+  <div class="hero_single"><img src="http://oplnce.wpengine.com/wp-content/uploads/2021/04/AdobeStock_224384195-scaled.jpg" ></div>
+  <div class="hero_single"><img src="http://oplnce.wpengine.com/wp-content/uploads/2021/04/AdobeStock_27554677-scaled.jpg" ></div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script>
+    jQuery(document).ready(function(){
+         jQuery('.hero_slide').slick({
+              dots: false,
+              infinite: true,
+              speed: 500,
+              fade: true,
+              cssEase: 'linear',
+              nextArrow: "<i class=\"fa fa-angle-right\"></i>",
+              prevArrow: "<i class=\"fa fa-angle-left\"></i>",
+            });
+	
+    });
+</script>
